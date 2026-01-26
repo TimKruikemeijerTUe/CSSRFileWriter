@@ -1,5 +1,5 @@
-# [[FileReaderName]]
-[[One-line description]]
+# CSSRFileWriter
+Writes the OVITO frame to a CSD CSSR file as well as possible.
 
 ## Description
 [[Full description]]
@@ -11,19 +11,10 @@
 [[Usage example]]
 
 ## Installation
-- OVITO Pro [integrated Python interpreter](https://docs.ovito.org/python/introduction/installation.html#ovito-pro-integrated-interpreter):
-  ```
-  ovitos -m pip install --user git+[[Repository Link]].git
-  ``` 
-  The `--user` option is recommended and [installs the package in the user's site directory](https://pip.pypa.io/en/stable/user_guide/#user-installs).
-
-- Other Python interpreters or Conda environments:
+- pip environment:
   ```
   pip install git+[[Repository Link]].git
   ```
 
 ## Technical information / dependencies
 - Tested on OVITO version [[VersionNumber]]
-
-## Contact
-[[Maintainer1Name]] [[Maintainer1Email]]
