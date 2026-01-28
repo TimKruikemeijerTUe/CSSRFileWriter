@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "CSSRFileWriter"
-version = "0.0.1"
+version = "0.1.0"
 description = "CSSR file writer for OVITO"
 keywords = ["ovito", "ovito-extension"]
 authors = [ { name="Tim" } ]
@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "[[https://github.com/TimKruikemeijerTUe/CSSRFileWriter/]]"
+repository = "https://github.com/TimKruikemeijerTUe/CSSRFileWriter/"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -8,7 +8,7 @@ from traits.api import String
 
 
 class CSSRFileWriter(FileWriterInterface):
-    title = String("Titel", label="Title in the header")
+    title = String("Title", label="Title in the header")
 
     def _get_label_map(self, frame: int, pipeline: Pipeline) -> dict[int, str]:
         return {
@@ -24,6 +24,7 @@ class CSSRFileWriter(FileWriterInterface):
             file.write(
                 f"{' '.join([f'{t:.6g}' for t in np.diagonal(data.cell)])}\n",
             )
+            # Angles 90 due to orthogonal box from OVITO
             file.write(
                 "90 90 90 SPGR = 1 P 1 OPT = 1\n",  # TODO
             )
