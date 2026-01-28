@@ -15,3 +15,10 @@ from ovito.io import export_file, import_file
 pipeline = import_file("data.xyz")
 export_file(pipeline, "data.cssr", format=CSSRFileWriter, frame=0, title="Title")
 ```
+
+## Installation
+
+Local install using pip:
+
+```pip install git+https://github.com/TimKruikemeijerTUe/CSSRFileWriter.git```
+
