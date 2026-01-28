@@ -4,23 +4,24 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "CSSRFileWriter"
-version = "1.0.0"
-description = "[[Short description]]"
+version = "0.0.1"
+description = "CSSR file writer for OVITO"
 keywords = ["ovito", "ovito-extension"]
-# authors = [{name = "[[Author 1 name]]", email = "[[Author 1 email]]"}, {name = "[[Author 2 name]]", email = "[[Author 2 email]]"}]
-# maintainers = [{name = "[[Maintainer 1 name]]", email = "[[Maintainer 1 email]]"}]
+authors = [ { name="Tim" } ]
 license = "MIT"
+license-files = ["LICEN[CS]E*"]
 readme = "README.md"
 requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
 dependencies = [
     "ovito >= 3.14.0",
 ]
 
 [project.urls]
 repository = "[[https://github.com/TimKruikemeijerTUe/CSSRFileWriter/]]"
-
-[project.entry-points.'OVITO.FileReader']
-"[[Human readable file reader name]]" = "[[PackageName]]:[[FileReaderName]]"
 
 [tool.setuptools.packages.find]
 where = ["src"]
