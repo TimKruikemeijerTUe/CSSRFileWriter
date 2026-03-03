@@ -20,5 +20,7 @@ export_file(pipeline, "data.cssr", format=CSSRFileWriter, frame=0, title="Title"
 
 Local install using pip:
 
-```pip install git+https://github.com/TimKruikemeijerTUe/CSSRFileWriter.git```
+```
+pip install git+https://github.com/TimKruikemeijerTUe/CSSRFileWriter.git
+```
 
